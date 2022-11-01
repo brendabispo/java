@@ -18,7 +18,11 @@ public class Resolucao03Repeticao {
             }
 			
         } while(num > 0); // se o número digitado for MAIOR que zero, faz o LOOP novamente // soma o valor digitado AGORA com o digitado ANTES3
-        System.out.println("A soma é: " + (num += num)); // soma
+        if (num > 0) {
+			
+		}
+        
+        System.out.println("A soma é: " + numero); // soma
         
 	}
 	}
